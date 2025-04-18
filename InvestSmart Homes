@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InvestSmart Homes | Smarter House Investments</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background: #2b2d42;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      background: url('https://images.unsplash.com/photo-1560185127-6d1d25c4f1b4?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+
+    .cta {
+      margin-top: 30px;
+    }
+
+    .cta button {
+      background: #ef233c;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 60px 40px;
+      background: white;
+    }
+
+    .feature {
+      width: 30%;
+      text-align: center;
+    }
+
+    .feature h3 {
+      color: #2b2d42;
+    }
+
+    .feature p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .form-section {
+      background: #edf2f4;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .form-section h2 {
+      margin-bottom: 20px;
+    }
+
+    form input, form button {
+      padding: 15px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
+    form input {
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: #2b2d42;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    footer {
+      background: #2b2d42;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>InvestSmart Homes</h1>
+  <nav>
+    <a href="#features">Why Invest</a>
+    <a href="#form">Get Started</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Build Wealth with Smart House Investments</h2>
+  <p>We help everyday people invest in residential properties that generate passive income and long-term value.</p>
+  <div class="cta">
+    <button onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'});">Start Investing Today</button>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="feature">
+    <h3>Expert Guidance</h3>
+    <p>Our team of real estate analysts will guide you every step of the way, from property selection to closing deals.</p>
+  </div>
+  <div class="feature">
+    <h3>Low Entry Point</h3>
+    <p>Start investing in high-potential properties with as little as $5,000 through fractional ownership options.</p>
+  </div>
+  <div class="feature">
+    <h3>Reliable Returns</h3>
+    <p>Earn rental income monthly and watch your investment grow with market appreciation and smart renovations.</p>
+  </div>
+</section>
+
+<section class="form-section" id="form">
+  <h2>Ready to Get Started?</h2>
+  <p>Sign up for a free consultation to learn how you can start your real estate investment journey today.</p>
+  <form>
+    <input type="text" placeholder="Your Full Name" required />
+    <input type="email" placeholder="Your Email Address" required />
+    <button type="submit">Book My Free Call</button>
+  </form>
+</section>
+
+<footer id="contact">
+  <p>&copy; 2025 InvestSmart Homes. All rights reserved.</p>
+  <p>Contact us at: support@investsmart.com</p>
+</footer>
+
+</body>
+</html>
